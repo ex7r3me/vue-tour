@@ -15,10 +15,10 @@
 
     <slot name="actions">
       <div class="v-step__buttons">
-        <button @click="stop" v-if="!isLast" class="v-step__button">Skip tour</button>
-        <button @click="previousStep" v-if="!isFirst" class="v-step__button">Previous</button>
-        <button @click="nextStep" v-if="!isLast" class="v-step__button">Next</button>
-        <button @click="stop" v-if="isLast" class="v-step__button">Finish</button>
+        <button @click="stop" v-if="!isLast" class="v-step__button">بیخیال</button>
+        <button @click="previousStep" v-if="!isFirst" class="v-step__button">قبلی</button>
+        <button @click="nextStep" v-if="!isLast" class="v-step__button">بعدی</button>
+        <button @click="stop" v-if="isLast" class="v-step__button">پایان</button>
       </div>
     </slot>
 
